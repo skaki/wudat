@@ -19,7 +19,7 @@
 
 <resources>
     <!-- Simple strings. -->
-    <string name="powpa">ReferralWire</string>
+    <string name="powpa">Event Scout</string>
 
     <!-- This is a complex string containing style runs. -->
     <string name="main_label">Powpa<u>th<ignore>e</ignore>re</u>, <i>you</i> <b>Activity</b>!</string>
@@ -30,6 +30,30 @@
     <string name="lori_p">Lori McDonald</string>
     <string name="susan_p">Susan Freeman</string>
     <string name="valeria_p">Valeria Santana</string>
+    <string name="geoff_p">Geoff Parkis</string>
+    <string name="gary_p">Gary Doti</string>
+    <string name="sally_p">Sally Dove</string>
+    <string name="steve_p">Steve Manti</string>
+    <string name="linda_p">Linda Ristow</string>
+    <string name="you_p">You ?</string>
+    
+    <string name="phil_fp">Phillip</string>
+    <string name="bruce_fp">Bruce</string>
+    <string name="janet_fp">Janet</string>
+    <string name="jenny_fp">Jenny</string>
+    <string name="lori_fp">Lori</string>
+    <string name="susan_fp">Susan</string>
+    <string name="valeria_fp">Valeria</string>
+    <string name="geoff_fp">Geoff</string>
+    <string name="gary_fp">Gary</string>
+    <string name="sally_fp">Sally</string>
+    <string name="steve_fp">Steve</string>
+    <string name="linda_fp">Linda</string>
+    <string name="you_fp">You</string>
+    
+      <string name="Street">Street</string>
+      <string name="City">Street</string>
+      <string name="State">State</string>
     
 </resources>
 

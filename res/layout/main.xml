@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebackground"
+    android:fadingEdge="none"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+	
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            
+            <TextView
+                android:id="@+id/textViewJoin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Join a Meeting"
+ 				android:gravity="center_horizontal"
+                android:textAllCaps="false"
+                android:textColor="@color/translucent_black"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:typeface="serif" />
+
+    </LinearLayout>
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/translucent_red"
+        android:orientation="vertical" >
+		
+
+		
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            
+            <TextView
+	            android:id="@+id/textViewStreet"
+	            android:layout_width="71dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="5dp"
+	            android:text="Street"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/Street"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+	        
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <TextView
+	            android:id="@+id/textViewCity"
+	            android:layout_width="71dp"
+	            android:layout_height="wrap_content"
+	             android:layout_marginLeft="5dp"
+	            android:text="City"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/City"
+                android:ems="10" >
+
+            </EditText>
+	        
+        </LinearLayout>
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <TextView
+	            android:id="@+id/textViewState"
+	            android:layout_width="71dp"
+	            android:layout_height="wrap_content"
+	             android:layout_marginLeft="5dp"
+	            android:text="State"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/editState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/State"
+                android:ems="10" >
+
+            </EditText>
+	        
+        </LinearLayout>
+        
+    </LinearLayout>
+	
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageViewCheckIn"
+            android:layout_width="79dp"
+            android:layout_height="78dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/powpa"
+            android:src="@drawable/checkin" />
+
+    </LinearLayout>
+</LinearLayout>
